@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Log In</title>
+</head>
+<body>
+    <div id="log_in_page">
+        <form method="POST">
+            <h1>Please Log In</h1>
+            <label for="name">Name:</label>
+            <input type="text" name="" id="name" placeholder="Please write your name here"><br><br>
+            <label for="surname">Surname:</label>
+            <input type="text" id="Sname" placeholder="Please write your surname here"><br><br>
+            <span id="alertmsg"></span><br>
+            <button type="button" id="strtBtn" onclick="login_click()">START</button>
+        </form>
+    </div>
+    <div id="test_page">
+        <h1 id="test_header"></h1>
+        <p id="question"></p>
+        <div id="answer"></div><br>
+        <button id="prevBtn" onclick="prev_click()" disabled>Previous</button>
+        <button id="nxtBtn" onclick="next_click()">Next</button>
+        <button id="fnshBtn" onclick="finish_click()">Finish</button>
+    </div>
+    <div id="result">
+        <h1 id="result_header"></h1>
+        <h4 id="score"></h4>
+    </div>
+</body>
+</html>

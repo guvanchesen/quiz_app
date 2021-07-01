@@ -1,0 +1,63 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+form{
+    font-size: x-large;
+    width: 40%; 
+    background-color: white; 
+    border: 1px black solid;
+    display: inline-block;
+    padding: 2rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 3px gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+    
+span{
+    color: red;
+}
+#test_page{
+    width: 30%;
+    height: auto;
+    display: none;
+    padding: 2rem;
+    margin-top: 5rem;
+    font-size: larger;
+}
+#question, #answer{
+    text-align: left;
+}
+#prevBtn, #nxtBtn{
+    
+    padding: 1rem;
+    background-color: grey;
+    color: white;
+}
+#prevBtn:disabled, #nxtBtn:disabled{
+    background-color: black;
+}
+#fnshBtn, #strtBtn{
+    padding: 1rem;
+    background-color: green;
+    color: white;
+    font-size: large;
+}
+#result{
+    width: 100%;
+    margin-top: 10%;
+}
+#result_header{
+    color: green;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#puan{
+    color: rgb(255, 59, 59);
+    font-size: x-large;
+}
